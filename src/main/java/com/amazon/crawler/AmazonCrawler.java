@@ -57,7 +57,6 @@ public class AmazonCrawler {
              }
             
         } finally {
-            System.out.println("success");
             driver.quit();
         }
     }
